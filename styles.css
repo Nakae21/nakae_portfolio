@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    background-image: url(portfo_bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#header_id{
+
+    background-color: transparent;
+    color:yellow;
+    padding: 40px;
+    text-align: center;
+    display: table-row;
+    column-gap: 50px;
+}
+
+#header_id a{
+    color: gold;
+}
+
+#header_id a:hover{
+    color: red;
+}
+
+#home{
+    text-align: center;
+}
+
+a {
+    color: azure;
+    text-decoration: solid;
+    margin: 8px;
+    padding: 10px 35px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/*MainPAGR*/
+.main-style{
+text-decoration: none;
+padding: 5px 20px;
+color: #fff;
+border: 1px solid transparent;
+transition: 0.5 ease;
+}
+.t{
+    border-radius: 500px;
+    width: 25%;
+  }
+
+
+/* EDUCATION PGE STYLE*/
+.edu-style, .ref-style{
+background-image: url(port_bg_other.jpg);
+}
+
+
+/* CONTACT PGE*/
+.cont-style{
+    background-image: url(contact.jpg);
+}
+.cont-style a {
+    color: gold;
+}
+
+ #cont-title {
+    height: 170px;
+    padding-bottom: 15px;
+    width: 100%;
+    position:relative;
+  }
+  
+  #cont-title {
+    background-color: black;
+    opacity: 80%;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  #cont-title :hover {
+    background-color: white;
+    height: 100%;
+  }
+  #cont-title :hover{
+    color: black;
+      }
+
+  #cont-title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2%;
+    z-index: -1;
+  }
+
+#social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#social-icons a {
+    margin: -25px;
+  }
+  
+#social-icons img {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+  }
+  
+  .contact-mail{
+    color: white;
+  }
+
+  .contact-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #contact-form {
+    color: white;
+    text-align: center;
+    font-size: larger;
+  }
+  #contact-form label{
+    
+    text-align: right;
+
+  }
+
+ 
+ 
