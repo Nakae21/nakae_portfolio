@@ -94,9 +94,52 @@ nav li:first-child{
 
 
 /* EDUCATION PGE STYLE*/
-.edu-style p{
-color: azure;
+
+.education {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  position: relative;
 }
+
+.edu-bk-img {
+  position: relative;
+  background-image: url(edu-bk.jpeg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.background-image img {
+  opacity: 0.3;
+}
+
+.cert-content {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 20px;
+  z-index: 1;
+}
+
+.cert-content h2,
+.cert-content h3 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.cert-content p {
+  margin: 5px 0;
+}
+
+/* Replace image paths with your actual file paths */
+.cert-content img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
 
 
 /* CONTACT PGE*/
@@ -280,7 +323,7 @@ h1 {
 
 
 /* @mediaquery shows how the site will appear on different devices*/
-@media(max-width: 800px){
+@media(max-width: 768px){
   .hideOnMobile{
     display: none;
   }
@@ -295,6 +338,14 @@ h1 {
   }
   .person {
     width: 100%;
+  }
+  .education {
+    flex-direction: column;
+    height: auto;
+  }
+  .cert-content {
+    align-items: center;
+    text-align: center;
   }
  
 }
