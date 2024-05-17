@@ -104,7 +104,7 @@ nav li:first-child{
 
 .edu-bk-img {
   position: relative;
-  background-image: url(edu-bk.jpeg);
+  background-image: url(edu-bk.jpe);
   background-size: cover;
   background-position: center;
   
@@ -207,7 +207,7 @@ nav li:first-child{
     text-align: center;
 }
 .cert_cv{
-  background-image: url(bk-cert.jpg);
+  background-image: url(bk-cert.jp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
